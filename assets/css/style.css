@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {font-family: 'Montserrat', sans-serif}
+.bg-auth {background-image: url('../img/bg-login.png')}
+
+/* LOGIN */
+.form-login input {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid darkblue;
+}
+
+/* .form-login .input-area {
+  margin-bottom: 50px;
+} */
+
+button#btn-login {
+  border: none;
+  outline: none;
+  background-image: linear-gradient(to right, darkblue, rgb(4, 124, 179));
+  font-weight: 500;
+}
